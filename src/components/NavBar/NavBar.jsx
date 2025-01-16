@@ -10,7 +10,7 @@ function NavBar() {
         <Container>
           <Navbar.Brand href="#home" className="pesa__brand">
             <span>
-              <FaRegMoneyBill1 />
+              <FaRegMoneyBill1 className="pesa__icon" />
             </span>
             PayStream App
           </Navbar.Brand>
