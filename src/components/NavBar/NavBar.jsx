@@ -12,7 +12,7 @@ function NavBar() {
             <span>
               <FaRegMoneyBill1 className="pesa__icon" />
             </span>
-            PayStream App
+            Pay<span>Stream</span>
           </Navbar.Brand>
         </Container>
       </Navbar>

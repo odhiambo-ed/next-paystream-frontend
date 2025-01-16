@@ -1,11 +1,19 @@
 .pesa__brand {
     display: flex;
     flex-direction: row;
-    gap: 10px;
     align-items: center;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.pesa__brand span {
+   color: #d5071a; 
 }
 
 .pesa__icon {
     color: #d5071a;
     font-size: 50px;
+    margin-right: 10px;
 }
