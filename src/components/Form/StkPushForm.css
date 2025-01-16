@@ -1,0 +1,56 @@
+.stk-push-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 3px #888888;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.stk-push-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stk-push-form div {
+  margin-bottom: 15px;
+}
+
+.stk-push-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.stk-push-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.stk-push-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.stk-push-form button:disabled {
+  background-color: #ccc;
+}
+
+.success-message {
+  color: green;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+}

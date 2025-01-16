@@ -49,7 +49,7 @@ const StkPushForm = () => {
   };
 
   return (
-    <div className="stk-push-form pt-4">
+    <div className="stk-push-form">
       <h2>PayStream App</h2>
       <form onSubmit={handleSubmit}>
         <div>
