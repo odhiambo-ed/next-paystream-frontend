@@ -49,7 +49,7 @@ const StkPushForm = () => {
 
   return (
     <div className="stk-push-form">
-      <h2>PayStream APP</h2>
+      <h2>PayStream App</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="phone_number">Phone Number:</label>
