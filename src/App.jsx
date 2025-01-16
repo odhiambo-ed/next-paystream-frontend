@@ -1,5 +1,5 @@
 import './App.css'
-import StkPushForm from './StkPushForm'
+import StkPushForm from './components/StkPushForm'
 
 function App() {
 

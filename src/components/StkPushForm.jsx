@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 
 const StkPushForm = () => {
@@ -22,12 +22,15 @@ const StkPushForm = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('https://fc93-102-213-48-10.ngrok-free.app/invoices', {
-        invoice: {
-          phone_number: phoneNumber,
-          amount: parseFloat(amount),
-        },
-      });
+      const response = await axios.post(
+        "https://85c7-129-222-147-225.ngrok-free.app/invoices",
+        {
+          invoice: {
+            phone_number: phoneNumber,
+            amount: parseFloat(amount),
+          },
+        }
+      );
 
       // Handle successful response
       setMessage('Payment initiated successfully!');
@@ -46,7 +49,7 @@ const StkPushForm = () => {
 
   return (
     <div className="stk-push-form">
-      <h2>Initiate Payment</h2>
+      <h2>PayStream APP</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="phone_number">Phone Number:</label>
